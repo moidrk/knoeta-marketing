@@ -14,7 +14,7 @@ export function Brand({ compact = false }: { compact?: boolean }) {
 
 export function EnterLink({ className }: { className?: string }) {
   return (
-    <a href={site.clinicalUrl} className={cn("button button-dark", className)}>
+    <a href={site.appUrl} className={cn("button button-dark", className)}>
       Enter Knoeta <ArrowRight size={16} aria-hidden="true" />
     </a>
   );

@@ -26,7 +26,7 @@ export function ProductStory() {
             Step into a decision. Weigh the evidence, commit to your reasoning,
             and discover what another attempt can teach you.
           </p>
-          <a className="text-link" href={`${site.clinicalUrl}/simulations`}>
+          <a className="text-link" href={`${site.appUrl}/simulations`}>
             Explore clinical simulation{" "}
             <ArrowUpRight size={16} aria-hidden="true" />
           </a>
@@ -57,7 +57,7 @@ export function ProductStory() {
             Go beyond the answer. Explore expert reasoning, test your
             assumptions, and make space for a different point of view.
           </p>
-          <a className="text-link" href={`${site.clinicalUrl}/coach`}>
+        <a className="text-link" href={`${site.appUrl}/coach`}>
             Meet Expert Coach <ArrowUpRight size={16} aria-hidden="true" />
           </a>
         </Reveal>

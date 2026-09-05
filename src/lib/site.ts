@@ -1,6 +1,6 @@
 export const site = {
   url: "https://knoeta.com",
-  clinicalUrl: "https://clinical.knoeta.com",
+  appUrl: "https://app.knoeta.com",
   title: "Knoeta — Clinical Intelligence for Clinicians",
   description:
     "Clinical intelligence for clinicians to practice decisions, learn from expert reasoning, and develop stronger judgment over time.",

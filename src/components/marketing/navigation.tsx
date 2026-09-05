@@ -30,7 +30,7 @@ export function Navigation() {
         ))}
       </nav>
       <div className="nav-actions">
-        <a className="sign-in" href={site.clinicalUrl}>
+        <a className="sign-in" href={site.appUrl}>
           Sign in
         </a>
         <EnterLink />
@@ -58,7 +58,7 @@ export function Navigation() {
             <ArrowUpRight size={19} aria-hidden="true" />
           </a>
         ))}
-        <a href={site.clinicalUrl} onClick={close}>
+      <a href={site.appUrl} onClick={close}>
           Sign in to Knoeta <ArrowUpRight size={19} aria-hidden="true" />
         </a>
       </nav>

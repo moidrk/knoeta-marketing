@@ -23,7 +23,7 @@ State: default page, plus interaction checks for mobile navigation, simulation c
 - Mobile menu opens, exposes four anchor destinations and sign-in, closes with Escape, and returns focus to its toggle.
 - Simulation choices update the live reflection prompt with `aria-pressed` and `aria-live` state.
 - Expert Coach tabs update the guidance copy with `aria-pressed` and `aria-live` state.
-- Navigation and CTA links resolve to page anchors or `https://clinical.knoeta.com` destinations.
+- Navigation and CTA links resolve to page anchors or `https://app.knoeta.com` destinations.
 - Semantic landmarks, heading hierarchy, skip link, focus-visible styles, decorative `aria-hidden` graphics, and `prefers-reduced-motion` support are present.
 - Browser console had no runtime errors. One Fast Refresh warning appeared during development editing and is not present in production output.
 
